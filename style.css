@@ -1008,9 +1008,6 @@ font-size: 11px;
 color: var(--accent-light);
 }
 
-/* ==============================
-TABLET
-============================== */
 
 @media (max-width: 900px) {
 
