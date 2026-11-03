@@ -1447,18 +1447,18 @@ outline: none;
 
 .lanyard-left,
 .lanyard-right {
-position: absolute;
-top: 0;
+    position: absolute;
+    top: 0;
 
-width: 19px;
-height: 155px;
+    width: 19px;
+    height: 155px;
 
-background: linear-gradient(
-    90deg,
-    #0754a8,
-    #3198ff,
-    #0754a8
-);
+    background: linear-gradient(
+        90deg,
+        #111111,
+        #333333,
+        #111111
+    );
 
 border: 1px solid rgba(255, 255, 255, 0.2);
 border-radius: 8px;
@@ -1481,7 +1481,6 @@ transform: rotate(9deg);
 transform-origin: top center;
 }
 
-/* METAL CONNECTOR */
 
 .lanyard-connector {
 position: absolute;
