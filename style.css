@@ -85,7 +85,7 @@ section {
 }
 
 .navbar {
-    width: min(1200px, 90%);
+    width: min(1200px, 100%);
     min-height: 75px;
     margin: 0 auto;
     display: flex;
