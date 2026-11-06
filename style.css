@@ -69,7 +69,7 @@ section {
 }
 
 .container {
-    width: min(1200px, 90%);
+    width: min(1200px, 100%);
     margin: 0 auto;
 }
 
