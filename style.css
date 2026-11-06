@@ -69,12 +69,14 @@ section {
 }
 
 .container {
-    width: min(1200px, 100%);
+    width: min(1200px, 90%);
     margin: 0 auto;
 }
 
 .header {
     width: 100%;
+    margin: 0;
+    padding: 0;
     position: sticky;
     top: 0;
     left: 0;
@@ -85,9 +87,11 @@ section {
 }
 
 .navbar {
-    width: min(1200px, 100%);
+    width: 100%;
+    max-width: none;
     min-height: 75px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 18px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -844,7 +848,7 @@ section {
 
 @media (max-width: 950px) {
     .navbar {
-        width: 90%;
+        gap: 15px;
     }
 
     .nav-links {
@@ -874,7 +878,9 @@ section {
     }
 
     .navbar {
+        width: 100%;
         min-height: 70px;
+        padding: 15px 5%;
         position: relative;
     }
 
@@ -994,9 +1000,13 @@ section {
 
 @media (max-width: 480px) {
     .container,
-    .hero-container,
-    .navbar {
+    .hero-container {
         width: 90%;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 15px 5%;
     }
 
     .logo {
